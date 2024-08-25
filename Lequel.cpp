@@ -81,6 +81,8 @@ void normalizeTrigramProfile(TrigramProfile &trigramProfile)
     if (norma == 0.0) {
         return;
     }
+
+    norma = sqrtf(norma);
        
     // Normalizar las frecuencias dividiéndolas por la frecuencia total
     for (auto& element : trigramProfile) {
