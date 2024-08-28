@@ -14,30 +14,29 @@ Bautista Mijalovich:
 історія земель сучасної України, українського народу та інших національностей, що проживають на території України, від доісторичних часів до сьогодення.
 Lequel: Ucraniano
 
+Ucraniano
 
 2. ¿En qué idioma está el siguiente texto?
 
 아리랑, 아리랑, 아라리요... 아리랑 고개로 넘어간다. 나를 버리고 가시는 님은 십리도 못가서 발병난다. 청천하늘엔 잔별도 많고, 우리네 가슴엔 희망도 많다. 저기 저 산이 백두산이라지, 동지 섣달에도 꽃만 핀다.
 Leuqel: Coreano
 
+Coreano
 
 3. ¿En qué idioma está el siguiente texto?
 
 ၁၉၄၀ ခုနှစ်တွင် ဗိုလ်ချုပ်အောင်ဆန်းဦးဆောင်သည့် ရဲဘော်သုံးကျိပ်အဖွဲ့ဝင်တို့သည် ဗမာ့လွတ်မြောက်ရေးတပ်မတော် (ဘီအိုင်အေ) ကို တည်ထောင်ခဲ့ကြသည်။[၂၀][၂၀] ရဲဘော်သုံးကျိပ်သည် ဂျပန်နိုင်ငံတွင် စစ်သင်တန်းများတက်ရောက်ခဲ့ကြသည်။[၂၀]
 Leuqel: Birmano
 
-
 4. ¿En qué idioma está el siguiente texto?
 
 Negema wangu binti, mchachefu wa sanati upulike wasiati asa ukanzingatia. Maradhi yamenshika hatta yametimu mwaka sikupata kutamka neno lema kukwambia. Ndoo mbee ujilisi na wino na qaratasi moyoni nina hadithi nimependa kukwambia.
 Lequel: Suajili
 
-
 5. ¿En qué idioma está el siguiente texto?
 
 Այժմ նա յուր կինտոյի արհեստով ժառանգած Ճանճուր մականունը կցելով յուր հոր՝ Օհանեսի անվան հետ, կոչվում է «Թիֆլիսի պատվավոր քաղաքացի Ճանճուր Իվանիչ»։ Այդ անունով ևս մենք պարտավորվում ենք նրան ծանոթացնել մեր ընթերցողներին։
 Lequel: Armenio
-
 
 6. ¿En qué idioma está el siguiente texto?
 
