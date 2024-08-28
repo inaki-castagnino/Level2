@@ -17,7 +17,7 @@
 using namespace std;
 
 const string LANGUAGECODE_NAMES_FILE = "C:/Users/Iñaki Castagnino/Documents/EDA/2. Lequel - Starter Code/resources/languagecode_names_es.csv";
-const string TRIGRAMS_PATH = "C:/Users/Iñaki Castagnino/Documents/EDA/2. Lequel - Starter Code/resources/trigrams";
+const string TRIGRAMS_PATH = "C:/Users/Iñaki Castagnino/Documents/EDA/2. Lequel - Starter Code/resources/trigrams/";
 
 /**
  * @brief Loads trigram data.
