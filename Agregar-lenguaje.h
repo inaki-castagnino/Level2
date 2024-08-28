@@ -11,6 +11,8 @@
 #include "Text.h"
 #include "Lequel.h"
 
-void buildLanguageProfile();
+using namespace std;
+
+void buildLanguageProfile(string path);
 
 #endif // !ADDL_H

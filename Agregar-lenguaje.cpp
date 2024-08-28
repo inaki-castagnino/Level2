@@ -1,6 +1,5 @@
 #include "Agregar-lenguaje.h"
 
-using namespace std;
 
 const string TRIGRAMS_PATH = "C:/Users/Iñaki Castagnino/Documents/EDA/2. Lequel - Starter Code/resources/trigrams/";
 
