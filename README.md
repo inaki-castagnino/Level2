@@ -74,15 +74,9 @@ And there's a hand, my trusty fiere! and gie's a hand o' thine! And we’ll tak'
 
 Lequel: Inglés
 
- Qué falla: Lequel identifica el texto en escocés como inglés.
- Esto ocurre porque el escocés, aunque es un idioma distinto,
- tiene muchas similitudes léxicas y gramaticales con el inglés,
- especialmente en las palabras más cortas y en las construcciones comunes.
- El sistema basado en trigramas puede no ser lo suficientemente sensible
- para distinguir entre estos dos idiomas debido a esta similitud superficial,
- lo que lleva a que Lequel lo clasifique incorrectamente como inglés.
-
-Justificación: Los trigramas del escocés pueden ser similares a los del inglés,
+ Lequel identifica el texto en escocés como inglés.
+ 
+ Los trigramas del escocés pueden ser similares a los del inglés,
  especialmente si el conjunto de datos de entrenamiento para el escocés no
  es lo suficientemente representativo o si no existen suficientes diferencias
  en los trigramas más comunes. El sistema de identificación de idiomas basado
@@ -103,23 +97,25 @@ WE WERE ALL GOING DIRECT TO HEAVEN, WE WERE ALL GOING DIRECT THE OTHER WAY
 
 Lequel: Afrikaans
 
-Qué falla: Lequel identifica el texto en inglés como afrikaans.
-Esto puede deberse a que ambos idiomas comparten trigramas similares
-debido a sus raíces germánicas comunes. Aunque el inglés y el
-afrikaans son diferentes, ciertas palabras y combinaciones de
-letras comunes en ambos idiomas pueden llevar a una confusión
-en el modelo.
-
-Justificación: El algoritmo de Lequel utiliza la similitud de
-coseno para comparar el perfil de trigramas del texto con perfiles
-de idiomas conocidos. Si los trigramas en el texto en inglés son
-similares a los trigramas en afrikaans, el sistema puede confundir
-el idioma. Esto puede suceder si los perfiles de idioma no están
-bien diferenciados o si el conjunto de datos de entrenamiento
-del modelo no tiene suficientes ejemplos que distingan claramente
-el inglés del afrikaans en textos similares.
+Lequel identifica el texto en inglés como afrikaans.
+Esto pse debe a que los perfiles de trigramas cargados son en minúscula,
+entonces al estar el texto en mayúscula no encuentra coincidencias al comparar
+con el archivo eng.csv .
 
 
 ## Bonus points
 
-[completar]
+Bonus similitud coseno:
+En este proyecto funciona la similitud coseno, ya que lo que se hace es representar 
+el texto en un perfil de trigramas, lo que es en realidad un vector. Por lo tanto, lo que se hace es sacar
+el ángulo entre 2 vectores (el perfil de trigrama calculado para el texto con el ya tabulado) y cuanto mas
+similares sean estos vectores, mas cercano a 1 será el resultado de la operación similitud coseno. Además,
+este cálculo utiliza operaciones muy rapidas y eficientes como el producto punto, por lo que es muy eficiente
+en términos computacionales.
+
+Bonus cuello de botella:
+El problema del cuello de botella está en la función getCosineSimilarity ya que si usas 2 for el O grande te quedaría
+O(n^2). La solución a esto es usar la función find para recorrer el mapa, asi bajando el O grande del algorítmo a O(n.log(n))
+
+	
+
