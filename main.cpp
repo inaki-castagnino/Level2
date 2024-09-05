@@ -8,20 +8,15 @@
 #include <iostream>
 #include <map>
 #include <string>
-
 #include "raylib.h"
-
 #include "CSVData.h"
 #include "Lequel.h"
-#include "Agregar-lenguaje.h"
 
 using namespace std;
 
-const string LANGUAGECODE_NAMES_FILE = "C:/Users/Iñaki Castagnino/Documents/EDA/2. Lequel - Starter Code/resources/languagecode_names_es.csv";
-const string TRIGRAMS_PATH = "C:/Users/Iñaki Castagnino/Documents/EDA/2. Lequel - Starter Code/resources/trigrams/";
-const string CATA_PATH = "C:/Users/Iñaki Castagnino/Documents/EDA/2. Lequel - Starter Code/catalan.txt";
-const string GUA_PATH = "C:/Users/Iñaki Castagnino/Documents/EDA/2. Lequel - Starter Code/guarani.txt" ;
-const string ASTU_PATH = "C:/Users/Iñaki Castagnino/Documents/EDA/2. Lequel - Starter Code/asturiano.txt" ;
+const string LANGUAGECODE_NAMES_FILE = "C:/Users/bmija/OneDrive/Escritorio/EDA/tp2/resources/languagecode_names_es.csv";
+const string TRIGRAMS_PATH = "C:/Users/bmija/OneDrive/Escritorio/EDA/tp2/resources/trigrams/";
+
 
 /**
  * @brief Loads trigram data.
@@ -81,10 +76,6 @@ bool loadLanguagesData(map<string, string> &languageCodeNames, LanguageProfiles 
 
 int main(int, char *[])
 {
-    buildLanguageProfile(CATA_PATH);
-    buildLanguageProfile(GUA_PATH);
-    buildLanguageProfile(ASTU_PATH);
-
     map<string, string> languageCodeNames;
     LanguageProfiles languages;
 
